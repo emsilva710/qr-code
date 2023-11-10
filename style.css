@@ -1,3 +1,8 @@
+.d-none{
+    display: none;
+}
+
+
 :root{
     --White: hsl(0, 0%, 100%);
     --Light_gray: hsl(212, 45%, 89%);
@@ -6,26 +11,36 @@
 }
 
 body{
+    background-color: var(--Light_gray);
+    height: 98dvh;
     display: flex;
-    height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: hsl(221, 45%, 77%);  
+    
 }
 
 .caja{
-  width: 1700px;
-  height: 2800px;
-  background-color: hsl(212, 45%, 89%);;
-  border-radius: 50px;
-  padding: 60px;
+  width: 246px;
+  background-color: var(--White);
+  padding: 16px;
+  border-radius: 15px;
 }
 .QR{
-    width: 1690px;
-    border-radius: 50px;
+    width: 100%;
+    border-radius: 15px;
 }
 
 .fuente{
-    font-family: 'Caveat', cursive;
     font-family: 'Outfit', sans-serif; 
+}
+
+.titulo{
+   color: var(--Dark_blue);
+   text-align: center;
+
+}
+
+.contenido{
+    color: var(--Grayish_blue);
+   text-align: center;
 }
